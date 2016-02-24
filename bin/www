@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 var app = require('../app');
-var debug = require('debug')('jogon1:server');
+var debug = require('debug')('dummyjogon:server');
 
 // 서버를 구동하는 건 www라는 ...
 var http = require('http');
