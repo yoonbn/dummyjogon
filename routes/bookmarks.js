@@ -4,6 +4,7 @@
 var express = require('express');
 var router = express.Router();
 
+// 독서량 통계
 router.get('/me', function(req,res,next){
 
     var message ={
