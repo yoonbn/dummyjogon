@@ -21,6 +21,7 @@ router.get('/me', function(req,res,next){
 	            "author":"저자",
 	            "publisher" : "출판사",
 	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -140,6 +141,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -259,6 +262,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -378,6 +383,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -497,6 +504,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -616,6 +625,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -735,6 +746,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -854,6 +867,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -973,6 +988,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
@@ -1092,6 +1109,8 @@ router.get('/me', function(req,res,next){
 	            "title":"책제목",
 	            "author":"저자",
 	            "publisher" : "출판사",
+	            "category" : "책의 카테고리",
+	            "total_page" : "책의 총 페이지",
 	            "pop_emotion_id":"책의 대표감정",
 	            "pageNum" : "페이지",
 	            "doodleList":[{
