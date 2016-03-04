@@ -115,6 +115,7 @@ router.post('/:isbn/bookmarks',function (req,res,next){
 
 });
 
+// 낙서 작성
 router.post('/:isbn/doodles', function (req,res,next){
     var message ={
         "success":{
