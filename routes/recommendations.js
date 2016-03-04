@@ -4,6 +4,8 @@
 var express = require('express');
 var router = express.Router();
 
+
+//추천
 router.get('/me', function(req,res,next){
 
     var message ={
