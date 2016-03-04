@@ -6,6 +6,7 @@ var router = express.Router();
 
 
 
+//책장과 낙서 검색
 router.get('/me', function(req,res,next){
 
     var message ={
