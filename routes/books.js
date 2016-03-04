@@ -15,7 +15,7 @@ router.get('/', function(req,res,next){
                 "author":"저자",
                 "publisher":"출판사",
                 "total_page":"페이지",
-                "category_id":"책 분류 번호",
+                "category":"카테고리",
                 "cover_url":"책표지의 파일 경로",
                 "pop_emotion_id":"책의 대표감정"
             },{
@@ -24,7 +24,7 @@ router.get('/', function(req,res,next){
                 "author":"저자",
                 "publisher":"출판사",
                 "total_page":"페이지",
-                "category_id":"책 분류 번호",
+	            "category":"카테고리",
                 "cover_url":"책표지의 파일 경로",
                 "pop_emotion_id":"책의 대표감정"
             },{
@@ -33,7 +33,7 @@ router.get('/', function(req,res,next){
                 "author":"저자",
                 "publisher":"출판사",
                 "total_page":"페이지",
-                "category_id":"책 분류 번호",
+	            "category":"카테고리",
                 "cover_url":"책표지의 파일 경로",
                 "pop_emotion_id":"책의 대표감정"
             },{
@@ -42,7 +42,7 @@ router.get('/', function(req,res,next){
                 "author":"저자",
                 "publisher":"출판사",
                 "total_page":"페이지",
-                "category_id":"책 분류 번호",
+	            "category":"카테고리",
                 "cover_url":"책표지의 파일 경로",
                 "pop_emotion_id":"책의 대표감정"
             },{
@@ -51,7 +51,7 @@ router.get('/', function(req,res,next){
                 "author":"저자",
                 "publisher":"출판사",
                 "total_page":"페이지",
-                "category_id":"책 분류 번호",
+	            "category":"카테고리",
                 "cover_url":"책표지의 파일 경로",
                 "pop_emotion_id":"책의 대표감정"
             },{
@@ -60,7 +60,7 @@ router.get('/', function(req,res,next){
 	            "author":"저자",
 	            "publisher":"출판사",
 	            "total_page":"페이지",
-	            "category_id":"책 분류 번호",
+	            "category":"카테고리",
 	            "cover_url":"책표지의 파일 경로",
 	            "pop_emotion_id":"책의 대표감정"
             },{
@@ -69,7 +69,7 @@ router.get('/', function(req,res,next){
 	            "author":"저자",
 	            "publisher":"출판사",
 	            "total_page":"페이지",
-	            "category_id":"책 분류 번호",
+	            "category":"카테고리",
 	            "cover_url":"책표지의 파일 경로",
 	            "pop_emotion_id":"책의 대표감정"
             },{
@@ -78,7 +78,7 @@ router.get('/', function(req,res,next){
 	            "author":"저자",
 	            "publisher":"출판사",
 	            "total_page":"페이지",
-	            "category_id":"책 분류 번호",
+	            "category":"카테고리",
 	            "cover_url":"책표지의 파일 경로",
 	            "pop_emotion_id":"책의 대표감정"
             },{
@@ -87,7 +87,7 @@ router.get('/', function(req,res,next){
 	            "author":"저자",
 	            "publisher":"출판사",
 	            "total_page":"페이지",
-	            "category_id":"책 분류 번호",
+	            "category":"카테고리",
 	            "cover_url":"책표지의 파일 경로",
 	            "pop_emotion_id":"책의 대표감정"
             },{
@@ -96,7 +96,7 @@ router.get('/', function(req,res,next){
 	            "author":"저자",
 	            "publisher":"출판사",
 	            "total_page":"페이지",
-	            "category_id":"책 분류 번호",
+	            "category":"카테고리",
 	            "cover_url":"책표지의 파일 경로",
 	            "pop_emotion_id":"책의 대표감정"
             }]

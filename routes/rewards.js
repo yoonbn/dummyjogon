@@ -16,21 +16,18 @@ router.get('/me', function(req,res,next){
             "rewardList":[{
                 "reward_id": "리워드 id",
                 "reward_type" : "리워드타입",
-                "quantity" : "수량",
                 "reward_quantity" : "리워드 수 ",
                 "reward_image_url" : "리워드 사진 url"
             },
                 {
                     "reward_id": "리워드 id",
-                    "reward_type" : "리워드타입",
-                    "quantity" : "수량",
+                    "reward_type" : "리워드 타입",
                     "reward_quantity" : "리워드 수 ",
                     "reward_image_url" : "리워드 사진 url"
                 },
                 {
                     "reward_id": "리워드 id",
                     "reward_type" : "리워드타입",
-                    "quantity" : "수량",
                     "reward_quantity" : "리워드 수 ",
                     "reward_image_url" : "리워드 사진 url"
                 }
