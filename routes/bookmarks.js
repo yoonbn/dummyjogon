@@ -10,7 +10,7 @@ router.get('/me', function(req,res,next){
     var message ={
         "success" : {
             "message" : "사용자의 독서량 통계입니다.",
-	        "month" : 1,
+	        "month" : "2016-01",
             "month_page" : 88
         }
     };
