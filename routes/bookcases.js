@@ -16,92 +16,52 @@ router.get('/me', function(req,res,next){
 			"tenseList" : [{
 				"isbn" : "9788900389210",
 				"cover_url":"책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 1
 			},{
 				"isbn" : "9788901161198",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 2
 			},{
 				"isbn" : "9788901204772",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 5
 			},{
 				"isbn" : "9788936479671",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id": 4
 			},{
 				"isbn" : "9788937839719",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 5
 			},{
 				"isbn" : "9788971997048",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 1
 			},{
 				"isbn" : "9788971997048",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 3
 			},{
 				"isbn" : "9788971997116",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 2
 			},{
 				"isbn" : "9788972753698",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 4
 			},{
 				"isbn" : "9788972757573",
 				"cover_url" : "책표지의 파일 경로",
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"total_page" : 120,
+				"cur_page" : 18,
 				"pop_emotion_id" : 5
 			}]
 		}
