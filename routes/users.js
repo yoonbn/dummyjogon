@@ -65,7 +65,8 @@ router.get('/filter', function(req, res, next) {
 			"message" : "사용자의 관심분야를 보여줍니다. ",
 			"filter" : [ "category_id", "category_id","category_id"]
 		}
-	}
+	};
+	res.json(message);
 });
 
 
