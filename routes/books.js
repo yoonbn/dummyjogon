@@ -3,101 +3,60 @@ var router = express.Router();
 
 // 책 검색
 router.get('/', function(req,res,next){
-
     var message ={
         "success" : {
             "message" : "4page에 대한 책 검색입니다.",
 	        "pageNum" : 4,
             "searchList":[{
-                "isbn" : 9788990982575,
+                "isbn" : "9788990982575",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-                "total_page" : 120,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 4
+	            "cover_url" : "책표지의 파일 경로"
             },{
-                "isbn" : 9788990982575,
+                "isbn" : "9788990982575",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 220,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 1
+	            "cover_url" : "책표지의 파일 경로"
             },{
-                "isbn" : 9788990982575,
+                "isbn" : "9788990982575",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 180,
-	            "category" : "카테고리",
-                "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 5
+                "cover_url" : "책표지의 파일 경로"
             },{
-                "isbn" : 9788991113756,
+                "isbn" : "9788991113756",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 120,
-	            "category" : "카테고리",
-                "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 1
+                "cover_url" : "책표지의 파일 경로"
             },{
-                "isbn" : 9788992037686,
+                "isbn" : "9788992037686",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 300,
-	            "category" : "카테고리",
-                "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 3
+	            "cover_url" : "책표지의 파일 경로"
             },{
-	            "isbn" : 9788993734348,
+	            "isbn" : "9788993734348",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 120,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 4
+	            "cover_url" : "책표지의 파일 경로"
             },{
-	            "isbn" : 9788994120997,
+	            "isbn" : "9788994120997",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 450,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 1
+	            "cover_url" : "책표지의 파일 경로"
             },{
-	            "isbn" : 9788991113756,
+	            "isbn" : "9788991113756",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 500,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 1
+	            "cover_url" : "책표지의 파일 경로"
             },{
-	            "isbn" : 9791158510244,
+	            "isbn" : "9791158510244",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 180,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 2
+	            "cover_url" : "책표지의 파일 경로"
             },{
-	            "isbn" : 9791186195482,
+	            "isbn" : "9791186195482",
 	            "title" : "책제목",
 	            "author" : "저자",
-	            "publisher" : "출판사",
-	            "total_page" : 100,
-	            "category" : "카테고리",
-	            "cover_url" : "책표지의 파일 경로",
-	            "pop_emotion_id" : 6
+	            "cover_url" : "책표지의 파일 경로"
             }]
         }
     };
@@ -114,13 +73,30 @@ router.post('/:isbn/bookmarks',function (req,res,next){
 
 });
 
+
+router.get('/:isbn', function(req,res,next){
+	var message ={
+		"success" : {
+			"message" : "책 에 대한 상세입니다.",
+			"bookDetail":{
+				"title" : "책제목",
+				"author" : "저자",
+				"publisher" : "출판사",
+				"category" : "책의 카테고리",
+				"cover_url" : "책표지의 파일 경로"
+
+			}
+		}
+	};
+	res.json(message);
+});
+
 // 낙서 작성
 router.post('/:isbn/doodles', function (req,res,next){
     var message ={
         "success":{
-            "message":"낙서가 작성 되었습니다.",
+            "message":"낙서가 작성 되었습니다."
         }
-
     };
     res.json(message);
 });
@@ -131,7 +107,6 @@ router.get('/:isbn/doodles', function(req,res,next){
         "success" : {
             "message" : "2page의 나의 낙서기록이 조회되었습니다.",
 	        "pageNum" : 2,
-	        "isbn" : 9791158510244,
             "doodleList":[{
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
