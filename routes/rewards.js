@@ -12,30 +12,24 @@ router.get('/me', function(req,res,next){
             "message" : "리워드 기록입니다.",
 	        "pageNum" : 2,
             "rewardList":[{
-		            "reward_type" : 1,
-		            "reward_image_url" : "리워드 사진 url"
-                },
-                {
-                    "reward_type" : 1,
-                    "reward_image_url" : "리워드 사진 url"
-                },
-                {
-                    "reward_type" : 1,
-                    "reward_image_url" : "리워드 사진 url"
-                },{
-		            "reward_type" : 1,
-		            "reward_image_url" : "리워드 사진 url"
-	            },{
-		            "reward_type" : 1,
-		            "reward_image_url" : "리워드 사진 url"
-	            },{
-		            "reward_type" : 1,
-		            "reward_image_url" : "리워드 사진 url"
-	            },{
-		            "reward_type" : 1,
-		            "reward_image_url" : "리워드 사진 url"
-	            }
-            ]
+	            "reward_type": 1,
+	            "reward_list":
+		            [{"reward_image_url": "리워드 사진 url"},
+		            {"reward_image_url": "리워드 사진 url"},
+		            {"reward_image_url": "리워드 사진 url"}]
+            },{
+	            "reward_type": 2,
+	            "reward_list":
+		            [{"reward_image_url": "리워드 사진 url"},
+		            {"reward_image_url": "리워드 사진 url"},
+		            {"reward_image_url": "리워드 사진 url"}]
+            },{
+	            "reward_type": 3,
+	            "reward_list":
+		            [{"reward_image_url": "리워드 사진 url"},
+		            {"reward_image_url": "리워드 사진 url"},
+		            {"reward_image_url": "리워드 사진 url"}]
+            }]
         }
     };
     res.json(message);
