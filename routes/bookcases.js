@@ -13,6 +13,7 @@ router.get('/me', function(req,res,next){
 		"success" : {
 			"message" : "사용자의 책목록을 시제에 맞게 출력합니다.",
 			"pageNum" : 4,
+			"tense" : 0,
 			"tenseList" : [{
 				"isbn" : "9788900389210",
 				"cover_url":"책표지의 파일 경로",
