@@ -59,6 +59,15 @@ router.post('/filter', function(req,res,next){
     //에러면 next에러 맞으면 true
 });
 
+router.get('/filter', function(req, res, next) {
+	var message = {
+		"success" : {
+			"message" : "사용자의 관심분야를 보여줍니다. ",
+			"filter" : [ "category_id", "category_id","category_id"]
+		}
+	}
+});
+
 
 router.get('/me', function(req, res, next) {
     if (req.secure){
@@ -68,8 +77,7 @@ router.get('/me', function(req, res, next) {
                 "me":{
 	                "user_photo_url": "프로필 사진" ,
 	                "nickname" : "닉네임",
-	                "local_email" : "사용자 이메일",
-	                "filter" : [ "category_id", "category_id","category_id"]
+	                "local_email" : "사용자 이메일"
                 }
             }
         };
