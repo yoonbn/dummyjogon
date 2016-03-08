@@ -59,6 +59,7 @@ router.post('/filter', function(req,res,next){
     //에러면 next에러 맞으면 true
 });
 
+
 router.get('/me', function(req, res, next) {
     if (req.secure){
         var message = {
@@ -67,14 +68,7 @@ router.get('/me', function(req, res, next) {
                 "me":{
 	                "user_photo_url": "프로필 사진" ,
 	                "nickname" : "닉네임",
-	                "local_email":"사용자 이메일",
-	                "filter" : [ "category_id", "category_id","category_id"]
-                },
-                "facemessage":" 페이스북 회원의 개인정보를 조회 합니다.",
-                "faceme":{
-	                "user_photo_url": "프로필 사진" ,
-	                "nickname" : "닉네임",
-	                "local_email":"사용자 이메일",
+	                "local_email" : "사용자 이메일",
 	                "filter" : [ "category_id", "category_id","category_id"]
                 }
             }
