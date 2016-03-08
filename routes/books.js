@@ -63,6 +63,25 @@ router.get('/', function(req,res,next){
     res.json(message);
 });
 
+// 책 상세보기
+router.get('/:isbn', function(req,res,next){
+	var message ={
+		"success" : {
+			"message" : "책 에 대한 상세입니다.",
+			"bookDetail":{
+				"title" : "책제목",
+				"author" : "저자",
+				"publisher" : "출판사",
+				"category" : "책의 카테고리",
+				"cover_url" : "책표지의 파일 경로"
+			}
+		}
+	};
+	res.json(message);
+});
+
+
+// 책갈피 추가
 router.post('/:isbn/bookmarks',function (req,res,next){
     var message ={
         "success":{
@@ -74,22 +93,6 @@ router.post('/:isbn/bookmarks',function (req,res,next){
 });
 
 
-router.get('/:isbn', function(req,res,next){
-	var message ={
-		"success" : {
-			"message" : "책 에 대한 상세입니다.",
-			"bookDetail":{
-				"title" : "책제목",
-				"author" : "저자",
-				"publisher" : "출판사",
-				"category" : "책의 카테고리",
-				"cover_url" : "책표지의 파일 경로"
-
-			}
-		}
-	};
-	res.json(message);
-});
 
 // 낙서 작성
 router.post('/:isbn/doodles', function (req,res,next){
@@ -101,6 +104,7 @@ router.post('/:isbn/doodles', function (req,res,next){
     res.json(message);
 });
 
+// 낙서 리스트 출력
 router.get('/:isbn/doodles', function(req,res,next){
 
     var message ={
@@ -211,7 +215,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "nickname" : "별명",
 	            "doodle_id": 50,
 	            "doodle_time" : "2016-02-08 16:22:01",
-	            "page" : 95,
+	            "page" : 0,
 	            "text_doodle" : "글낙서",
 	            "picture_doodle_url" : "사진낙서의 url",
 	            "cover_url" : "책 표지의 파일 경로",
@@ -222,7 +226,6 @@ router.get('/:isbn/doodles', function(req,res,next){
     };
     res.json(message);
 });
-
 
 router.put('/:isbn/doodles/:doodle_id',function (req,res,next){
    var message ={
