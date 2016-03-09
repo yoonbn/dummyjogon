@@ -112,6 +112,7 @@ router.get('/:isbn/doodles', function(req,res,next){
             "message" : "2page의 나의 낙서기록이 조회되었습니다.",
 	        "pageNum" : 2,
             "doodleList":[{
+	            "write_user_id" : 1,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -176,7 +177,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "picture_doodle_url" : "사진낙서의 url",
 	            "cover_url" : "책 표지의 파일 경로",
 	            "emotion_doodle_id" : 1,
-	            "heart": "낙서에 대한 추천"
+	            "heart": 4
             },{
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
