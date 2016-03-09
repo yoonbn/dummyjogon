@@ -124,6 +124,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 4,
 	            "heart": 3
             },{
+	            "write_user_id" : 2,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -135,6 +136,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 6,
 	            "heart": 5
             },{
+	            "write_user_id" : 1,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -146,6 +148,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 2,
 	            "heart": 72
             },{
+	            "write_user_id" : 5,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -157,6 +160,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 2,
 	            "heart": 33
             },{
+	            "write_user_id" : 18,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -168,6 +172,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 1,
 	            "heart": 3
             },{
+	            "write_user_id" : 15,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -179,6 +184,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 1,
 	            "heart": 4
             },{
+	            "write_user_id" : 17,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -190,6 +196,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 3,
 	            "heart": 0
             },{
+	            "write_user_id" : 1,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -201,6 +208,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 1,
 	            "heart": 3
             },{
+	            "write_user_id" : 1,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
@@ -212,6 +220,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "emotion_doodle_id" : 4,
 	            "heart": 6
             },{
+	            "write_user_id" : 2,
 	            "user_photo_url" : "사용자의 사진",
 	            "nickname" : "별명",
 	            "doodle_id": 50,
