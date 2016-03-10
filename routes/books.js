@@ -117,7 +117,7 @@ router.get('/:isbn/doodles', function(req,res,next){
 	            "nickname" : "별명",
 	            "doodle_id": 50,
 	            "doodle_time" : "2016-02-08 16:22:01",
-	            "page" : 7,
+	            "doodle_page" : 7,
 	            "text_doodle" : "글낙서",
 	            "picture_doodle_url" : "사진낙서의 url",
 	            "cover_url" : "책 표지의 파일 경로",
@@ -257,5 +257,13 @@ router.delete('/:isbn/doodles/:doodle_id',function (req,res,next){
 
 });
 
+router.post('/:isbn/doodles/:doodle_id/heart', function (req, res, next) {
+	var message = {
+		"success" : {
+			"message" : "공감이 되었습니다"
+		}
+	};
+	res.json(message);
+});
 
 module.exports = router;
