@@ -73,7 +73,7 @@ router.get('/:isbn', function(req,res,next){
 				"author" : "저자",
 				"publisher" : "출판사",
 				"category" : "책의 카테고리",
-				"cover_url" : "책표지의 파일 경로"
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg"
 			}
 		}
 	};
