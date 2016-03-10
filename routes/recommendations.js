@@ -11,17 +11,18 @@ router.get('/me', function(req,res,next){
     var message ={
         "success" : {
             "message" : "추천입니다.",
-	        "pageNum" : 2,
             "recommendBook" : {
 	            "isbn" : "9791186195482",
-	            "name" : "책제목",
-	            "emotion" : 3
+	            "cover_url" : "표지이미지"
             },
             "recommendProgram": {
 	            "programId" : 2,
-	            "programName" : "프로그램명",
-	            "programImage" : "프로그램 대표 이미지",
-	            "programContents" : "프로그램 내용"
+	            "programName" : "프로그램 명",
+	            "programDate" : "프로그램 날짜",
+	            "programLocation" : "프로그램 장소",
+	            "programSponsor" : "프로그램 주최",
+	            "programReservation" : "프로그램 예약 사이트",
+	            "programImage" : "프로그램 대표 이미지"
             },
             "recommendClub" : {
 	            "clubId" : 2,
