@@ -266,4 +266,16 @@ router.post('/:isbn/doodles/:doodle_id/heart', function (req, res, next) {
 	res.json(message);
 });
 
+// 책장 추가
+
+router.post('/:isbn/bookcases/:tense', function(req,res,next){
+
+	var message ={
+		"success" : {
+			"message" : "책을 책장에 추가합니다."
+		}
+	};
+	res.json(message);
+});
+
 module.exports = router;

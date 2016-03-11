@@ -16,52 +16,52 @@ router.get('/me', function(req,res,next){
 			"tense" : 0,
 			"tenseList" : [{
 				"isbn" : "9788900389210",
-				"cover_url":"책표지의 파일 경로",
+				"cover_url":"https://s3.ap-northeast-2.amazonaws.com/jogon/test/Penguins.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 1
 			},{
 				"isbn" : "9788901161198",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/Tulips.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 2
 			},{
 				"isbn" : "9788901204772",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 5
 			},{
 				"isbn" : "9788936479671",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id": 4
 			},{
 				"isbn" : "9788937839719",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 5
 			},{
 				"isbn" : "9788971997048",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 1
 			},{
 				"isbn" : "9788971997048",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 3
 			},{
 				"isbn" : "9788971997116",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 2
 			},{
 				"isbn" : "9788972753698",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 4
 			},{
 				"isbn" : "9788972757573",
-				"cover_url" : "책표지의 파일 경로",
+				"cover_url" : "https://s3.ap-northeast-2.amazonaws.com/jogon/test/KakaoTalk_20160310_145838622.jpg",
 				"cur_page" : 18,
 				"pop_emotion_id" : 5
 			}]
@@ -70,15 +70,7 @@ router.get('/me', function(req,res,next){
 	res.json(message);
 });
 
-router.post('/me', function(req,res,next){
 
-	var message ={
-		"success" : {
-			"message" : "책을 책장에 추가합니다."
-		}
-	};
-	res.json(message);
-});
 
 module.exports = router;
 
