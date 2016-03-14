@@ -12,6 +12,7 @@ router.get('/me', function(req,res,next){
 	var message ={
 		"success" : {
 			"message" : "사용자의 책목록을 시제에 맞게 출력합니다.",
+			"totalBooks" : 18,
 			"pageNum" : 4,
 			"tense" : 0,
 			"tenseList" : [{
